@@ -791,7 +791,7 @@ extern char **environ;
         }
     }
     
-    return false;
+    return true;
 }
 
 - (BOOL)deviceSupportsFaceID
