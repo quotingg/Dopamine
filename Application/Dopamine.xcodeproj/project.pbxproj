@@ -724,6 +724,77 @@
 			);
 			target = 2F11A313301BFDAE00C1C9F0 /* momentarius */;
 		};
+		57D2422C304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8C7198142ABF0E82003C6658 /* Dopamine */;
+		};
+		57D2422D304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8CDD07A62B4F619000A32B61 /* kfd */;
+		};
+		57D2422E304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8C2B1FDE2B532374009BA166 /* dmaFail */;
+		};
+		57D2422F304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8C05B0022B63152B001A7CF3 /* badRecovery */;
+		};
+		57D24230304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8C5FA8D32BDD36B6008C246F /* weightBufs */;
+		};
+		57D24231304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8C5FA8E32BDD36BF008C246F /* multicast_bytecopy */;
+		};
+		57D24232304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 8CF3E8362F72D45800931CA8 /* DarkSword */;
+		};
+		57D24233304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BadKernel.h,
+				Info.plist,
+				libBadKernel.a,
+			);
+			target = 3165CFCE3020A516002737DA /* Titan */;
+		};
 		8C3B2DF8301BC05200C979A6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -737,6 +808,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		57D2420B304CF0CC00C076B3 /* BadKernel */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (57D2422C304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D2422D304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D2422E304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D2422F304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D24230304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D24231304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D24232304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 57D24233304CF0EE00C076B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = BadKernel; sourceTree = "<group>"; };
 		8C3B2DEF301BC05200C979A6 /* ClearSword */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8C3B2DF8301BC05200C979A6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 2F11A31F301BFDAF00C1C9F0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ClearSword; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -1366,6 +1438,7 @@
 		8C7198322ABF130A003C6658 /* Exploits */ = {
 			isa = PBXGroup;
 			children = (
+				57D2420B304CF0CC00C076B3 /* BadKernel */,
 				3165CFDC3020A547002737DA /* Titan */,
 				2F11A320301BFE5200C1C9F0 /* momentarius */,
 				8CF3E8352F72D44700931CA8 /* DarkSword */,
@@ -1619,6 +1692,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				57D2420B304CF0CC00C076B3 /* BadKernel */,
 				8C3B2DEF301BC05200C979A6 /* ClearSword */,
 			);
 			name = momentarius;
@@ -1703,6 +1777,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				57D2420B304CF0CC00C076B3 /* BadKernel */,
 				8C3B2DEF301BC05200C979A6 /* ClearSword */,
 			);
 			name = ClearSword;
@@ -2467,6 +2542,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2504,6 +2583,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2539,6 +2622,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -2576,6 +2663,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2612,6 +2703,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2647,6 +2742,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2680,6 +2779,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2712,6 +2815,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -2748,6 +2855,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -2786,6 +2897,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2822,6 +2937,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
+				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -2856,6 +2975,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -2892,6 +3015,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -2930,6 +3057,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -3104,6 +3235,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dopamine/Dependencies",
 					"$(PROJECT_DIR)/Dopamine/Resources",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 3.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.Dopamine;
@@ -3142,6 +3274,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dopamine/Dependencies",
 					"$(PROJECT_DIR)/Dopamine/Resources",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 3.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.Dopamine;
@@ -3171,6 +3304,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -3205,6 +3342,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -3241,6 +3382,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -3279,6 +3424,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dopamine/Exploits/BadKernel",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
